@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">Magnetism from quantum mechanics to medical robots</title>
+  <desc id="desc">A central magnetic dipole sends field lines through four scales: quantum spin, magnetic materials, devices and medicine.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061f37"/>
+      <stop offset="1" stop-color="#0c496a"/>
+    </linearGradient>
+    <linearGradient id="magnet" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8b94a"/>
+      <stop offset=".5" stop-color="#f5d37a"/>
+      <stop offset=".5" stop-color="#43c4e7"/>
+      <stop offset="1" stop-color="#1285af"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="860" fill="url(#bg)"/>
+  <g fill="none" stroke="#78d7ef" stroke-width="3" opacity=".48">
+    <path d="M470 388C215 146 97 244 120 430s214 250 407 89"/>
+    <path d="M485 368C260 68 38 156 51 424s256 349 493 115"/>
+    <path d="M730 388c255-242 373-144 350 42s-214 250-407 89"/>
+    <path d="M715 368c225-300 447-212 434 56s-256 349-493 115"/>
+    <path d="M470 472C218 694 91 604 121 435"/>
+    <path d="M730 472c252 222 379 132 349-37"/>
+  </g>
+  <g fill="#f4cf6b" opacity=".7">
+    <circle cx="179" cy="205" r="6"/><circle cx="1020" cy="205" r="6"/><circle cx="179" cy="655" r="6"/><circle cx="1020" cy="655" r="6"/>
+  </g>
+  <g filter="url(#glow)">
+    <rect x="450" y="368" width="300" height="124" rx="62" fill="url(#magnet)"/>
+    <path d="M600 368v124" stroke="#fff" stroke-width="3" opacity=".55"/>
+    <text x="525" y="443" fill="#071f35" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">N</text>
+    <text x="675" y="443" fill="#fff" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">S</text>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <text x="105" y="128" fill="#86ddf2" font-size="16" font-weight="700" letter-spacing="3">01 / QUANTUM</text>
+    <text x="105" y="165" fill="#fff" font-size="28">spin · exchange</text>
+    <text x="1095" y="128" fill="#86ddf2" font-size="16" font-weight="700" letter-spacing="3" text-anchor="end">02 / MATERIALS</text>
+    <text x="1095" y="165" fill="#fff" font-size="28" text-anchor="end">order · hysteresis</text>
+    <text x="105" y="742" fill="#86ddf2" font-size="16" font-weight="700" letter-spacing="3">03 / DEVICES</text>
+    <text x="105" y="779" fill="#fff" font-size="28">fields · motion</text>
+    <text x="1095" y="742" fill="#86ddf2" font-size="16" font-weight="700" letter-spacing="3" text-anchor="end">04 / MEDICINE</text>
+    <text x="1095" y="779" fill="#fff" font-size="28" text-anchor="end">imaging · robots</text>
+    <text x="600" y="332" fill="#f5d475" font-size="17" font-weight="700" letter-spacing="4" text-anchor="middle">ONE PHYSICAL STORY ACROSS FOUR SCALES</text>
+  </g>
+</svg>
